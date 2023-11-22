@@ -2,6 +2,13 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,700&family=Poppins:wght@300&display=swap');
+
+*{
+  transition: all;
+  transition-duration: 1000ms all;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', 'Droid Sans', 'Oxygen',
@@ -18,4 +25,8 @@ code {
 
 .bg-white\/60 {
   background-color: rgb(225, 223, 223);
+}
+
+font-pop {
+  font-family: 'Poppins', sans-serif;
 }
