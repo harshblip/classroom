@@ -14,6 +14,11 @@ module.exports = {
       'lg': '1024px',
       // => @media (min-width: 1280px) { ... }
     },
+    extend: {
+      fontFamily: {
+        "poppins": ['Poppins', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
